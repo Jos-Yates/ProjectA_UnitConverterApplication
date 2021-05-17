@@ -90,7 +90,8 @@ public class Converter {
 			System.out.println("2. Feet to Yards");
 			System.out.println("3. Feet to Miles");
 			System.out.println("4. Go Back");
-
+			break;
+		}
 		Scanner scanner3 = new Scanner(System.in);
 		menuSelection3 = scanner3.nextInt();
 		switch (menuSelection3) {
@@ -123,7 +124,6 @@ public class Converter {
 			break;
 		}
 	}
-	}
 }
 	private static void callYards() {
 		int menuSelection4 = 0; //MenuSelection4 for Yard Conversion
@@ -133,7 +133,8 @@ public class Converter {
 			System.out.println("2. Yards to Feet");
 			System.out.println("3. Yards to Miles");
 			System.out.println("4. Go Back");
-
+			break;
+		}
 		Scanner scanner4 = new Scanner(System.in);
 		menuSelection4 = scanner4.nextInt();
 		switch (menuSelection4) {
@@ -164,7 +165,6 @@ public class Converter {
 		default: {
 			System.out.println("Error! Please place a correct input!");
 			break;
-		}
 		}
 		}
 }

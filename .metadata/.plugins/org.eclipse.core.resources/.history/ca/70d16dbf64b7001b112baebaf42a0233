@@ -47,7 +47,8 @@ public class Converter {
 			System.out.println("2. Inches to Yards");
 			System.out.println("3. Inches to Miles");
 			System.out.println("4. Go Back");
-			
+			break;
+		}
 		Scanner scanner2 = new Scanner(System.in); //Similarly, all new scanners will be marked scanner2, scanner3, etc.; that way as to avoid any potential goofups I'm not aware of
 		menuSelection2 = scanner2.nextInt();
 		switch (menuSelection2) {
@@ -81,7 +82,6 @@ public class Converter {
 		}
 		}
 	}
-	}
 	private static void callFeet() {
 		int menuSelection3 = 0; //MenuSelection3 for Feet Conversion
 		while (menuSelection3 != 4) {
@@ -89,8 +89,9 @@ public class Converter {
 			System.out.println("1. Feet to Inches");
 			System.out.println("2. Feet to Yards");
 			System.out.println("3. Feet to Miles");
-			System.out.println("4. Go Back");
-
+			System.out.println("4. Quit");
+			break;
+		}
 		Scanner scanner3 = new Scanner(System.in);
 		menuSelection3 = scanner3.nextInt();
 		switch (menuSelection3) {
@@ -123,7 +124,6 @@ public class Converter {
 			break;
 		}
 	}
-	}
 }
 	private static void callYards() {
 		int menuSelection4 = 0; //MenuSelection4 for Yard Conversion
@@ -132,8 +132,9 @@ public class Converter {
 			System.out.println("1. Yards to Inches");
 			System.out.println("2. Yards to Feet");
 			System.out.println("3. Yards to Miles");
-			System.out.println("4. Go Back");
-
+			System.out.println("4. Quit");
+			break;
+		}
 		Scanner scanner4 = new Scanner(System.in);
 		menuSelection4 = scanner4.nextInt();
 		switch (menuSelection4) {
@@ -164,7 +165,6 @@ public class Converter {
 		default: {
 			System.out.println("Error! Please place a correct input!");
 			break;
-		}
 		}
 		}
 }

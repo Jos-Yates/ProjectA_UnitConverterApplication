@@ -133,7 +133,8 @@ public class Converter {
 			System.out.println("2. Yards to Feet");
 			System.out.println("3. Yards to Miles");
 			System.out.println("4. Go Back");
-
+			break;
+		}
 		Scanner scanner4 = new Scanner(System.in);
 		menuSelection4 = scanner4.nextInt();
 		switch (menuSelection4) {
@@ -164,7 +165,6 @@ public class Converter {
 		default: {
 			System.out.println("Error! Please place a correct input!");
 			break;
-		}
 		}
 		}
 }
